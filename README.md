@@ -1,8 +1,8 @@
-# 🚀 PRINCE E2EE - Facebook Automation Tool
+# 🚀 ZIDDI E2EE - Facebook Automation Tool
 
 A powerful Streamlit-based Facebook automation tool with E2EE messaging support.
 
-Created by **Prince Malhotra**
+Created by **Ziddi xD**
 
 ## 🌟 Features
 
@@ -94,9 +94,9 @@ streamlit run streamlit_app.py --server.port 5000
 
 ## 📞 Support
 
-Created by **Prince Malhotra**
+Created by **Asim Ali**
 
-[Contact Developer on Facebook](https://www.facebook.com/profile.php?id=61567810846706)
+[Contact Developer on Facebook](https://www.facebook.com/asim.hn.yawr.786)
 
 ## ⚠️ Disclaimer
 
